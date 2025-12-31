@@ -15,13 +15,13 @@ const geistSans = localFont({
 });
 
 export const metadata = {
-  title: "Huzaif\'s Portfolio",
+  title: "Thangajeyapradeep\'s Portfolio",
   icons:{
 icon: "/logo.png"
   },
-  description: "Experienced fullstack developer specializing in modern web technologies. View my projects, skills, and experience.",
-  keywords: "fullstack developer,backend developer, frontend developer, web development, JavaScript,JS, C#, CSharp, React, Node.js, portfolio",
-  author: "Huzaif Ahmed",
+  description: "Full-stack web developer with strong experience in modern web applications and supporting data engineering workflows. Explore projects across frontend, backend, APIs, and scalable data-driven systems.",
+  keywords: "full stack web developer, web application developer, frontend developer, backend developer, React, JavaScript, Django, REST API, data engineering, ETL, SQL, portfolio",
+  author: "Thangajeyapradeep",
   robots: "index, follow",
 };
 
