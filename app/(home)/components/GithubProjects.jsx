@@ -41,7 +41,7 @@ const languageColors = {
 };
 
 const ITEMS_PER_PAGE = 6;
-const GITHUB_API_URL = `https://api.github.com/users/${config.social.github}/repos`;
+const GITHUB_API_URL = `https://api.github.com/TjAthena/${config.social.github}/repos`;
 
 const getProjectSize = (index) => {
     const sizes = [
@@ -90,21 +90,7 @@ const ProjectSkeleton = () => (
 
 const ErrorAlert = ({ error, onRetry }) => (
     <Alert variant="destructive" className="col-span-full">
-        <FaExclamationCircle className="w-4 h-4" />
-        <AlertDescription className="flex items-center justify-between">
-            <span>
-                Failed to load projects. Please try again later.
-                Rate limit exceeded
-            </span>
-            <Button
-                variant="outline"
-                size="sm"
-                onClick={onRetry}
-                className="ml-4"
-            >
-                Try Again
-            </Button>
-        </AlertDescription>
+
     </Alert>
 );
 
@@ -280,14 +266,13 @@ const GithubProjects = () => {
             <div className="w-full">
                 <div className="container mx-auto px-4 sm:px-6 md:px-8">
                     <div className="space-y-8 sm:space-y-12">
-                        <div className="space-y-3 sm:space-y-4 text-center">
+                        <div className="space-y-3 sm:space-y-4 text-center mt-16">
                             <motion.div
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 className="inline-flex items-center space-x-2 bg-secondary/10 border-[1.8px] border-zinc-900/70 px-4 py-2 sm:px-5 sm:py-2.5 rounded-full text-primary backdrop-blur-sm shadow-lg"
                             >
-                                <FaGithub className="w-4 h-4 sm:w-5 sm:h-5" />
-                                <span className="text-xs sm:text-sm font-semibold">Latest Github Projects</span>
+                                <span className="text-xs sm:text-sm font-semibold">Education</span>
                             </motion.div>
 
                             <motion.h2
@@ -296,17 +281,33 @@ const GithubProjects = () => {
                                 transition={{ delay: 0.1 }}
                                 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary px-4"
                             >
-                                Open Source Projects
+                                Academic Background
                             </motion.h2>
-                            <motion.p
+
+                            <motion.div
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 0.2 }}
-                                className="text-base sm:text-lg text-muted-foreground px-4"
+                                className="max-w-2xl mx-auto text-muted-foreground px-4 space-y-2"
                             >
-                                Check out my public portfolio projects on Github
-                            </motion.p>
+                                <p className="text-lg font-semibold text-primary">
+                                Dhanalakshmi College of Engineering
+                                </p>
+                                <p className="text-sm">
+                                Under Anna University
+                                </p>
+                                <p className="text-base">
+                                B.Tech – Artificial Intelligence & Data Science
+                                </p>
+                                <p className="text-sm">
+                                CGPA: <span className="font-semibold text-primary">8.01 / 10.0</span>
+                                </p>
+                                <p className="text-sm">
+                                2020 – 2024
+                                </p>
+                            </motion.div>
                         </div>
+
 
                     <motion.div
                         variants={containerAnimation}
@@ -356,11 +357,11 @@ const GithubProjects = () => {
                             asChild
                         >
                             <a
-                                href={`https://github.com/${config.social.github}`}
+                                href={`https://github.com/TjAthena`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                View More on Github
+                                Github
                             </a>
                         </Button>
                     </div>

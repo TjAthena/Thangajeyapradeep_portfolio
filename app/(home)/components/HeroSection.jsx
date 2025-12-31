@@ -87,7 +87,13 @@ I build web that builds brands.              </motion.span>
             variants={itemAnimation}
             className="text-base sm:text-md text-muted-foreground leading-relaxed max-w-2xl mx-auto"
           >
-           Full-stack builder creating digital experiences that respect humans and scale with clarity. Accessibility is my north star.
+           Full-stack web developer and data analytics practitioner creating scalable, performance-driven web applications and decision-ready dashboards. I focus on clarity, usability, and real business outcomes.
+          </motion.p>
+          <motion.p
+            variants={itemAnimation}
+            className="text-base sm:text-md text-muted-foreground leading-relaxed max-w-2xl mx-auto"
+          >
+           Accessibility and data clarity are my north stars.
           </motion.p>
 
           <motion.div

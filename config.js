@@ -3,10 +3,10 @@ import { HiCode, HiCube, HiDatabase, HiMail, HiBriefcase } from "react-icons/hi"
 
 export const config = {
     developer: {
-        name: "Huzaif",
+        name: "Thangajeyapradeep M",
     },
     social: {
-        github: "huzaifahmedz",
+        github: "TjAthena",
         discord: "#"
     },
     NAV_ITEMS: [
@@ -17,48 +17,48 @@ export const config = {
     projects: [
         {
             id: 1,
-            title: "AI-Powered Code Review Assistant",
-            description: "An intelligent code review platform that uses machine learning to analyze pull requests, detect bugs, suggest optimizations, and enforce coding standards. Features real-time collaboration, automated testing integration, and comprehensive security scanning.",
-            image: "/projects/project-1.webp",
-            technologies: ["Python", "TensorFlow", "React", "FastAPI", "PostgreSQL", "Docker"],
+            title: "SnapZnack Pvt Ltd – Company Website",
+            description: "SnapZnack is a private limited food manufacturing company based in Tamil Nadu, India. I designed and developed a professional company website to establish a strong and credible digital presence.\n\nThe website clearly presents the company profile, product offerings, and brand identity in a clean, structured, and responsive layout, making it easy for customers and partners to understand the business.\n\nI am currently working with the client to convert the website into a full-scale e-commerce platform to support online sales and future business growth.",
+            image: "/projects/project-1.png",
+            technologies: ["React", "Graphic designing", "Domain", "Deployment"],
             github: "#",
-            demo: "#"
+            demo: "https://snapznack.com"
         },
         {
             id: 2,
-            title: "Real-time Collaborative Whiteboard",
-            description: "A next-generation collaborative whiteboard platform with infinite canvas, real-time synchronization, and advanced drawing tools. Supports video conferencing, screen sharing, and export to multiple formats. Built for remote teams and educators.",
-            image: "/projects/project-2.webp",
-            technologies: ["TypeScript", "WebRTC", "Socket.io", "Canvas API", "Node.js", "Redis"],
+            title: "Confidence Financial Services – Business Website & Employee Management Portal",
+            description: "Confidence Financial Services is a Chennai-based financial solutions firm serving clients across Tamil Nadu, specializing in insurance marketing, mutual fund distribution, and banking products.\n\nI designed and developed a 10-page professional business website that is fully responsive across devices and screen sizes, optimized for fast loading, smooth performance, and clear navigation.\n\nIn addition to the public-facing website, I built a secure Employee Management Portal using Django and REST APIs with a MySQL database. The system supports role-based access, employee records management, and internal operational workflows.\n\nCustom graphic illustrations were created to support branding and visual clarity, ensuring a clean, trustworthy, and stress-free digital presence for both customers and internal teams.",
+            image: "/projects/project-2.png",
+            technologies: ["TypeScript", "react", "Django", "REEST API", "MySQL"],
             github: "#",
-            demo: "#"
+            demo: "https://confidencefoundation.in/"
         },
         {
             id: 3,
-            title: "Blockchain Voting System",
-            description: "A secure, transparent, and decentralized voting platform built on Ethereum. Features smart contract-based voting, anonymous ballots, real-time result tracking, and immutable audit trails. Ensures election integrity through cryptographic verification.",
-            image: "/projects/project-3.webp",
-            technologies: ["Solidity", "Web3.js", "React", "Ethereum", "IPFS", "MetaMask"],
-            github: "#",
-            demo: "#"
+            title: "Real-Time Music Streaming Analytics Pipeline",
+            description: "Designed a real-time data pipeline simulating events from a music streaming platform (similar to Spotify), capturing user interactions such as song plays, navigation events, and authentication activities.\n\nThe system processes streaming data in real time and stores it in a data lake at regular intervals (every two minutes). An hourly batch job consumes this data, applies transformations, and generates analytics-ready tables.\n\nThe pipeline supports dashboard analytics for metrics such as popular songs, active users, user behavior patterns, and demographic insights.",
+            image: "/projects/project-3.jpg",
+            technologies: ["Python", "Apache Airflow", "Apache Spark", "SQL", "Data Lake"],
+            github: "https://github.com/TjAthena/End-to-End-Data-Pipeline-Kafka-Spark-Airflow-Batch-Streaming-with-Docker-Setup",
+            demo: "https://github.com/TjAthena/End-to-End-Data-Pipeline-Kafka-Spark-Airflow-Batch-Streaming-with-Docker-Setup"
         },
         {
             id: 4,
-            title: "Cloud Infrastructure Dashboard",
-            description: "A comprehensive cloud management platform for monitoring, managing, and optimizing multi-cloud infrastructure. Features real-time metrics, cost analysis, automated scaling, and security compliance monitoring across AWS, Azure, and GCP.",
-            image: "/projects/project-4.webp",
-            technologies: ["Go", "Kubernetes", "Grafana", "Prometheus", "Terraform", "React"],
-            github: "#",
-            demo: "#"
+            title: "SQL-Focused Data Engineering with Medallion Architecture",
+            description: "A compact, hands-on data engineering project designed for SQL practitioners and aspiring data engineers to work with realistic, large-scale datasets.\n\nThe project focuses on building ETL workflows using CSV data (~1.55M rows), applying data cleaning, schema design, and transformations across the Bronze, Silver, and Gold layers following the Medallion Architecture.\n\nEmphasis was placed on SQL performance optimization, including efficient joins, aggregations, indexing strategies, and understanding execution plans, while keeping the toolchain minimal to strengthen core SQL fundamentals.",
+            image: "/projects/project-4.png",
+            technologies: ["SQL","Data Warehousing","Medallion Architecture","CSV Data Processing","Query Optimization","Schema Design"],
+            github: "https://github.com/TjAthena/SQL-Focused-Data-Engineering-with-Medallion-Architecture",
+            demo: "https://github.com/TjAthena/SQL-Focused-Data-Engineering-with-Medallion-Architecture"
         },
         {
             id: 5,
-            title: "Neural Network Visualizer",
-            description: "An interactive web application for visualizing, training, and experimenting with neural networks. Features drag-and-drop architecture builder, real-time training visualization, model comparison tools, and export capabilities for production deployment.",
-            image: "/projects/project-5.webp",
-            technologies: ["Python", "TensorFlow.js", "D3.js", "Next.js", "WebGL", "TypeScript"],
-            github: "#",
-            demo: "#"
+            title: "Shatapathram – Exporter Website & Digital Assets",
+            description: "Shatapathram is a global peanut exporter with over 4.5 years of industry experience, handling more than 1,500 tons annually across farming, processing, and value-added operations.\n\nI designed and developed an industrial-grade exporter website using HTML and CSS, consisting of 60+ pages across six languages to support international buyers and partners.\n\nIn addition to web development, I handled domain management, professional email setup, Google indexing, and supporting digital assets, ensuring strong online visibility, fast performance, and exporter-level business credibility.",
+            image: "/projects/project-5.png",
+            technologies: ["HTML", "CSS", "6 Multilingual Website", "SEO", "Domain Management"],
+            github: "https://shatapathram.com/",
+            demo: "https://shatapathram.com/"
         }
  
     ],
@@ -66,71 +66,72 @@ export const config = {
         {
             title: "Frontend",
             icon: <HiCode />,
-            description: "Modern web interfaces",
+            description: "Industry-oriented web interfaces",
             bgClass: "bg-blue-500/10",
             iconClass: "text-blue-500",
             skills: [
-                { name: "Next.js 15", level: "Advanced", hot: true },
-                { name: "React", level: "Advanced" },
+                { name: "React", level: "Advanced", hot: true },
+                { name: "Vue.js", level: "Advanced" },
                 { name: "TailwindCSS", level: "Expert" },
-                { name: "JavaScript", level: "Advanced" },
-                { name: "Framer Motion", level: "Intermediate" }
             ]
         },
         {
-            title: "Backend",
+            title: "Backend & APIs",
             icon: <HiDatabase />,
-            description: "Server & Database",
+            description: "Scalable backend systems & AI integrations",
             bgClass: "bg-emerald-500/10",
             iconClass: "text-emerald-500",
             skills: [
-                { name: "Node.js", level: "Advanced", hot: true },
-                { name: "MongoDB", level: "Advanced" },
-                { name: "Express.js", level: "Advanced", hot: true }
+                { name: "Python", level: "Advanced", hot: true },
+                { name: "Django", level: "Advanced", hot: true },
+                { name: "REST API", level: "Intermediate", hot: true }
             ]
         },
         {
-            title: "Programs & Tools",
+            title: "Data Engineering & Analytics",
             icon: <HiCube />,
-            description: "Development & Productivity Tools",
+            description: "ETL, data pipelines & analytics-ready data",
             bgClass: "bg-orange-500/10",
             iconClass: "text-orange-500",
             skills: [
-                { name: "VS Code", level: "Expert", hot: true },
-                { name: "Postman", level: "Advanced" },
-                { name: "Photoshop", level: "Intermediate" },
-                { name: "Git", level: "Advanced" }
+                { name: "SQL", level: "Advanced", hot: true },
+                { name: "Apache Airflow", level: "Intermediate", hot: true },
+                { name: "Apache Spark", level: "Intermediate" },
+                { name: "AWS RDS", level: "Intermediate" },
+                { name: "AWS Lambda", level: "Intermediate" },
+                { name: "Data Warehousing", level: "Intermediate" },
+                { name: "Data Engineering Concepts", level: "Intermediate" }
             ]
         }
     ],
     experiences: [
         {
-            position: "Frontend Developer",
-            company: "SelectSkillSet",
-            period: "2024 - Present",
+            position: "AI-Powered Full-Stack Web Developer",
+            company: "Freelance",
+            period: "Sep 2024 - Present",
             location: "Remote",
-            description: "Developing modern, responsive frontend applications with focus on user experience and performance. Working with cutting-edge technologies to build scalable web solutions.",
+            description: "Designing, developing, and deploying production-ready Web sites and full-stack web applications with integrated automation and data-driven features. Focused on building scalable systems that solve real business problems.",
             responsibilities: [
-                "Building responsive and interactive user interfaces using React and Next.js",
-                "Implementing modern UI/UX designs with TailwindCSS and Framer Motion",
-                "Optimizing application performance and ensuring cross-browser compatibility",
-                "Collaborating with design and backend teams to deliver high-quality features"
+                "Designed and implemented frontend UI/UX systems tailored to different industries, ensuring layouts, navigation, and interaction flows match real-world usage patterns",
+                "uilt and deployed 5+ full-stack web applications including Employee Management Systems, Order Management Platforms, and AI-assisted Content Tools using Python, Django, and REST APIs",
+                "Deployed, hosted, and maintained applications on Render, Vercel, and Hostinger, ensuring scalability, uptime, and smooth performance",
+                "Provided post-deployment support including UI refinements, performance tuning, SEO Optimization and iterative improvements based on real user feedback"
             ],
-            technologies: ["React", "Next.js", "TailwindCSS", "JavaScript", "Framer Motion", "TypeScript"]
+            technologies: ["Python django", "Vue.js", "REST API", "JavaScript", "AI", "Domain-Specific Solutions"]
         },
         {
-            position: "Full Stack Developer",
-            company: "Tekisky",
-            period: "2023 - 2024",
+            position: "Data Integration & Analytics Engineer",
+            company: "Freelancing and Incubation center Projects",
+            period: "Sep 2024 - Present",
             location: "Remote",
-            description: "Developed and maintained full-stack web applications, working on both frontend and backend systems. Collaborated with cross-functional teams to deliver robust software solutions.",
+            description: "Worked on end-to-end data integration and analytics solutions for startups, incubation centres, and enterprise clients across logistics and legacy system environments. Focused on transforming fragmented data into clean, structured, analytics-ready datasets to support business reporting and AI/ML initiatives.",
             responsibilities: [
-                "Developed and maintained full-stack web applications using React, Node.js, and MongoDB",
-                "Implemented RESTful APIs and integrated third-party services",
-                "Built responsive user interfaces and optimized application performance",
-                "Worked on database design and backend architecture"
+                "Designed and executed end-to-end ETL pipelines using Python, SQL, AWS Glue, Lambda, Apache Spark, and Apache Airflow, ingesting data from CSV, XML, and REST API (JSON) sources",
+                "Built analytics-ready data warehouses following Medallion Architecture (Bronze, Silver, Gold), applying data mapping, profiling, and business transformation logic to deliver clean, business-value datasets",
+                "Modernized and structured legacy enterprise and logistics data, enabling reliable business analytics and AI/ML model training aligned with client requirements",
+                "Authored 10–13 comprehensive documents (ETL flows, data models, source-to-target mappings, and data catalogs) and collaborated with analysts and data engineers to support KPI-driven dashboards"
             ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "JavaScript", "MERN Stack"]
+            technologies: ["Python", "SQL", "Apache Airflow", "ETL/ELT", "Cloud & AWS Services", "Documentation"]
         }
     ],
     contactInfo: [
@@ -138,14 +139,14 @@ export const config = {
         {
             icon: <FaGithub className="w-5 h-5" />,
             label: "GitHub",
-            value: "@huzaifahmedz",
-            link: `https://github.com/huzaifahmedz`
+            value: "@TjAthena",
+            link: `https://github.com/TjAthena`
         },
         {
             icon: <HiMail className="w-5 h-5" />,
             label: "Email",
-            value: "dev.huzaif@gmail.com",
-            link: "mailto:dev.huzaif@gmail.com"
+            value: "tjpradeep2000@gmail.com",
+            link: "mailto:tjpradeep2000@gmail.com"
         },
         {
             icon: <FaMapPin className="w-5 h-5" />,

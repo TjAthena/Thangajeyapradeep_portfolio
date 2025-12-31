@@ -43,7 +43,7 @@ const ContactForm = ({ onSubmit }) => {
               id="name"
               type="text"
               name="name"
-              placeholder="Huzaif"
+              placeholder="Your Name"
               className="rounded-lg border-primary/20 w-full"
             />
             {errors.name && (
