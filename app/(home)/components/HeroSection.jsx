@@ -87,7 +87,7 @@ I build web that builds brands.              </motion.span>
             variants={itemAnimation}
             className="text-base sm:text-md text-muted-foreground leading-relaxed max-w-2xl mx-auto"
           >
-           Full-stack web developer and data analytics practitioner creating scalable, performance-driven web applications and decision-ready dashboards. I focus on clarity, usability, and real business outcomes.
+           Full-stack web developer and data Engineering practitioner creating scalable, performance-driven web applications and decision-ready dashboards. I focus on clarity, usability, and real business outcomes.
           </motion.p>
           <motion.p
             variants={itemAnimation}
