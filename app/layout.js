@@ -8,6 +8,7 @@ import { Toaster } from "sonner";
 import Footer from "@/components/Footer";
 import NextTopLoader from "nextjs-toploader";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/next"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -64,6 +65,7 @@ export default function RootLayout({ children }) {
           />
         </ThemeProvider>
         <SpeedInsights />
+        <Analytics/>
       </body>
     </html>
   );
